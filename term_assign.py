@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:42:38 2022
-
-@author: prate
-"""
-
 #module to assign terminal planes that have just landed
 import cap_check
 import mysql.connector as sqlconnect
