@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:41:10 2022
-
-@author: prate
-"""
-
 #module to generate plane numbers
 import random
 def plane_gen():
