@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 07:44:09 2022
-
-@author: prate
-"""
-
 #modulw to display main menu 
 import Create,time,os,ex_handler
 import mysql.connector as sqlconnect
