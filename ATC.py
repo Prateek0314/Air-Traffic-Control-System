@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:37:17 2022
-
-@author: prate
-"""
-
-2# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 17 00:16:55 2020
-
-@author: prate
-"""
-
 #importing library modules
 
 import mysql.connector as sqlconnect
