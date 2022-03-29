@@ -1,6 +1,6 @@
 #module to assign runway for takeoff to plane at terminal
 import mysql.connector as sqlconnect
-import time
+import time,cap_check
 
 #connection
 con=sqlconnect.connect(host="localhost",user="root",passwd="password",database="ATC")
@@ -10,7 +10,6 @@ if con.is_connected():
 
 cursor=con.cursor()
 
-import cap_check
 def assign_runw(term):
     if cap_check.plane_check_remove(term):
         return True
