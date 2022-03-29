@@ -1,12 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:43:14 2022
-
-@author: prate
-"""
-
 #module to assign runway for takeoff to plane at terminal
 import mysql.connector as sqlconnect
+import time
 
 #connection
 con=sqlconnect.connect(host="localhost",user="root",passwd="password",database="ATC")
