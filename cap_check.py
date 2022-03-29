@@ -1,13 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:43:46 2022
-
-@author: prate
-"""
-
-
 #capacity checker
-import Create,time,os
 import mysql.connector as sqlconnect
 
 #connection
