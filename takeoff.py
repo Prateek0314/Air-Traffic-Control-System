@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:41:35 2022
-
-@author: prate
-"""
-
 #module to grant permission to takeoff
-import cap_check
+import time,cap_check,FLNO_generator
 import mysql.connector as sqlconnect
 
 #connection
@@ -61,11 +54,11 @@ def takeoff(place):
     for i in data:
         l.append(i[0])
 
-    if plane_check_add("approach")==False:
+    if cap_check.plane_check_add("approach")==False:
         f=l.index(None) 
         if f==5:
             print("Approach limit reached grant permission to land before continuing")
-        fln=FLNO-generator.plane_gen()
+        fln=FLNO_generator.plane_gen()
         a="update ATC.flqueues set approach='"+fln+"' where pos="+str(f+1)+";"
         cursor.execute(a)
         con.commit()
