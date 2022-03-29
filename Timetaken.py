@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:39:55 2022
-
-@author: prate
-"""
-
 #module to compute movement time from sql to python
 import mysql.connector as sqlconnect
 
