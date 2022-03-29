@@ -1,12 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:37:55 2022
-
-@author: prate
-"""
-
 #creator and deletion modules to create structure and data in sql
 import mysql.connector as sqlconnect
+import FLNO_generator
 
 #connection
 con=sqlconnect.connect(host="localhost",user="root",passwd="password")
