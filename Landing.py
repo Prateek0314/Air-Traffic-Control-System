@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 06:42:14 2022
-
-@author: prate
-"""
-
 #module to grant permission to land
-import cap_check
+import cap_check,time
 import mysql.connector as sqlconnect
 
 #connection
