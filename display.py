@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 28 07:42:11 2022
-
-@author: prate
-"""
-
 #function to display list of planes at given place
 import mysql.connector as sqlconnect
 
