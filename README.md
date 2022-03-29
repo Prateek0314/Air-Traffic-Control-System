@@ -18,7 +18,7 @@ cap_check.py- Contains modules to check if 1. There are free spaces in locations
 
 display.py- Contains module that returns a list of flights at a location.
 
-ex_handler- Contains module that deals with exception handling making sure that the input is present in the list provided as one of the parameters. Best used for yes/no situations.
+ex_handler.py- Contains module that deals with exception handling making sure that the input is present in the list provided as one of the parameters. Best used for yes/no situations.
 
 main_menu.py- Contains the main program that deals with the menu based interface.
 
